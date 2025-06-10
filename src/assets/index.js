@@ -4,6 +4,7 @@ import joyFigure from "./img/joy-figure.webp"
 import AboutImg from "./img/about-me.webp";
 import experImg from "./img/experience-image.webp"
 import VacationsImg from "./img/port1.webp"
+import pokedex from "./img/pokedex.webp"
 import MolaImg from "./img/website-img-2.webp"
 import mktImg from "./img/agntMKT.webp"
 import bodaPort from "./img/boda.webp"
@@ -11,6 +12,13 @@ import cvold from "./img/cvOld.webp"
 import EmailImg from "./img/email-image.webp"
 
 const projects = [
+  {
+      name: "Pokedex",
+      year: "Angular",
+      align: "left",
+      image: pokedex,
+      link: "https://pokedex.asgerath.com/",
+    },
     {
       name: "HooBank",
       year: "ReactJs",
